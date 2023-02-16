@@ -93,8 +93,8 @@ section img ,div {
     height: 100%;
 }
 section img{
-    width: 60%;
-    border-radius: 1rem 0 0 1rem;;
+    width: 50%;
+    border-radius: 1rem 0 0 1rem;
 }
 section div{
     width: 40%;
@@ -113,29 +113,31 @@ section div p{
 .sectionAbout{
     display: flex;
     justify-content: center;
+    height:max-content;
     margin-left: 10%;
     margin-top: 3%;
 }
 
 .containerRules{
     display: flex;
-    width: 50%;
     height: 100%;
     background-color: red;
-    justify-content: center;
+    justify-content:center;
+    text-align: center;
+    flex-direction: column;
     border-radius: 1rem;
     border: 1px solid black;
     box-shadow:2px 2px rgba(0,0,0,0.443) ;
 }
 
+
 table {
     background-color: aliceblue;
     height: 70vh;
-    width: 30rem;
+    width: 50rem;
     table-layout: auto;
     border-spacing: 5px;
     border-collapse: collapse;
-    /* empty-cells: hide; */
     caption-side: bottom;
 }
 
@@ -150,4 +152,7 @@ th {
     color: aliceblue;
     padding-bottom: 5px;
     padding-top: 5px;
+}
+.infoRules{
+    width: fit-content;
 }
