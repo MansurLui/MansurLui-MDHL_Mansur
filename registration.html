@@ -38,55 +38,38 @@
                     <label for="street_adress">Street adress:</label>
                     <input type="text" name="street" id="street_adress"><span style="color:red">*</span><br>
                     <label for="city">City:</label>
-                    <input type="text" name="city_name" id="city"><span style="color:red">*</span><br>
+                    <input type="text" name="city name" id="city"><span style="color:red">*</span><br>
                     <label for="zip_code">Zip:</label>
                     <input type="number" name="zip" id="zip_code"><span style="color:red">*</span><br>
                     <label for="birth_date">Birth date:</label>
                     <input type="date" name="birth" id="birth_date"><span style="color:red">*</span><br>
                     <p>Gender:</p>
                     <label>female
-                        <input type="checkbox" name="gender_female" value="female"><span style="color:red">*</span>
+                        <input type="radio" name="gender" value="female"><span style="color:red">*</span>
                     </label>
                     <label>male
-                        <input type="checkbox" name="gender_male" value="male"><span style="color:red">*</span>
+                        <input type="radio" name="gender" value="male"><span style="color:red">*</span>
                     </label><br>
-                    <p>Grade:</p>
-                    <label>Pre-school
-                        <input type="checkbox" name="grade_pre" value="Pre-school"><span style="color:red">*</span>
-                    </label>
-                    <label>1
-                        <input type="checkbox" name="grade1" value="1"><span style="color:red">*</span>
-                    </label>
-                    <label>2
-                        <input type="checkbox" name="grade2" value="2"><span style="color:red">*</span>
-                    </label>
-                    <label>3
-                        <input type="checkbox" name="grade3" value="3"><span style="color:red">*</span>
+                    <label for="select">Grade:</label>
+                    <select name="grade" id="select">
+                        <option value="pre-school">Pre-School</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
                     </label><br>
                 </fieldset><br>
                 <p><b>Which elementary school do you live near?</b></p>
                 <fieldset>
-                    <p>Closest School:</p>
-                    <label>AJ Katzenmainer
-                        <input type="checkbox" name="school_AJ" value="AJ_Katzenmainer"><span style="color:red">*</span>
-                    </label>
-                    <label>Greenbay
-                        <input type="checkbox" name="school_Greenbay" value="Greenbay"><span style="color:red">*</span>
-                    </label>
-                    <label>Howard A Yeager
-                        <input type="checkbox" name="school_Howard" value="Howard_a_yeaguer"><span style="color:red">*</span>
-                    </label>
-                    <label>Marjorie P Hart
-                        <input type="checkbox" name="school_Marjorie" value="Marjorie_p_hart"><span style="color:red">*</span>
-                    </label>
-                    <label>North Elementary
-                        <input type="checkbox" name="school_North" value="North_elementary"><span style="color:red">*</span>
-                    </label>
-                    <label>South Elementary
-                        <input type="checkbox" name="school_South" value="South_elementary"><span style="color:red">*</span>
-                    </label>
-                    <label>3
-                        <input type="checkbox" name="grade3" value="3"><span style="color:red">*</span>
+                    <label for="select_school">Closest School:</label>
+                    <select name="School" id="select_school">
+                        <option value="AJ Katzenmainer">AJ Katzenmainer</option>
+                        <option value="Greenbay">Greenbay</option>
+                        <option value="Howard A Yeager">Howard A Yeager</option>
+                        <option value="Marjorie P Hart">Marjorie P Hart</option>
+                        <option value="North Elementary">North Elementary</option>
+                        <option value="South Elementary">South Elementary</option>
+                    </select>
                     </label>
                 </fieldset>
                 <input type="submit" value="send">
