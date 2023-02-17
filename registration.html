@@ -28,8 +28,8 @@
     <main>
         <h2><b>Registration Form</b></h2>
         <div class="containerForm">
-            <form action="./show.data.html" method="get">
-        <p style="color:red;"><strong>* campo obligatorio</strong></p>
+            <form action="show__data.html" method="get">
+                <p style="color:red;"><strong>* campo obligatorio</strong></p>
                 <fieldset>
                     <label for="first_name">Player first name:</label>
                     <input type="text" name="name" id="first_name"><span style="color:red">*</span><br>
@@ -45,25 +45,51 @@
                     <input type="date" name="birth" id="birth_date"><span style="color:red">*</span><br>
                     <p>Gender:</p>
                     <label>female
-                    <input type="checkbox" name="gender_female" value="female"><span style="color:red">*</span>
+                        <input type="checkbox" name="gender_female" value="female"><span style="color:red">*</span>
                     </label>
                     <label>male
-                    <input type="checkbox" name="gender_male" value="male"><span style="color:red">*</span>
+                        <input type="checkbox" name="gender_male" value="male"><span style="color:red">*</span>
                     </label><br>
                     <p>Grade:</p>
                     <label>Pre-school
-                    <input type="checkbox" name="grade_pre" value="Pre-school"><span style="color:red">*</span>
+                        <input type="checkbox" name="grade_pre" value="Pre-school"><span style="color:red">*</span>
                     </label>
                     <label>1
-                    <input type="checkbox" name="grade1" value="1"><span style="color:red">*</span>
+                        <input type="checkbox" name="grade1" value="1"><span style="color:red">*</span>
                     </label>
                     <label>2
-                    <input type="checkbox" name="grade2" value="2"><span style="color:red">*</span>
+                        <input type="checkbox" name="grade2" value="2"><span style="color:red">*</span>
                     </label>
                     <label>3
-                    <input type="checkbox" name="grade3" value="3"><span style="color:red">*</span>
+                        <input type="checkbox" name="grade3" value="3"><span style="color:red">*</span>
                     </label><br>
+                </fieldset><br>
+                <p><b>Which elementary school do you live near?</b></p>
+                <fieldset>
+                    <p>Closest School:</p>
+                    <label>AJ Katzenmainer
+                        <input type="checkbox" name="school_AJ" value="AJ_Katzenmainer"><span style="color:red">*</span>
+                    </label>
+                    <label>Greenbay
+                        <input type="checkbox" name="school_Greenbay" value="Greenbay"><span style="color:red">*</span>
+                    </label>
+                    <label>Howard A Yeager
+                        <input type="checkbox" name="school_Howard" value="Howard_a_yeaguer"><span style="color:red">*</span>
+                    </label>
+                    <label>Marjorie P Hart
+                        <input type="checkbox" name="school_Marjorie" value="Marjorie_p_hart"><span style="color:red">*</span>
+                    </label>
+                    <label>North Elementary
+                        <input type="checkbox" name="school_North" value="North_elementary"><span style="color:red">*</span>
+                    </label>
+                    <label>South Elementary
+                        <input type="checkbox" name="school_South" value="South_elementary"><span style="color:red">*</span>
+                    </label>
+                    <label>3
+                        <input type="checkbox" name="grade3" value="3"><span style="color:red">*</span>
+                    </label>
                 </fieldset>
+                <input type="submit" value="send">
             </form>
         </div>
     </main>
