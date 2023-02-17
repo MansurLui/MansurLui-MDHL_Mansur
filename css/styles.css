@@ -121,20 +121,21 @@ section div p{
 .containerRules{
     display: flex;
     height: 100%;
+    width: 90%;
     background-color: red;
     justify-content:center;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 1rem;
     border: 1px solid black;
     box-shadow:2px 2px rgba(0,0,0,0.443) ;
 }
 
 
-table {
+containerRules div ,table {
     background-color: aliceblue;
     height: 70vh;
-    width: 50rem;
+    width: 100%;
     table-layout: auto;
     border-spacing: 5px;
     border-collapse: collapse;
