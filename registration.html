@@ -26,54 +26,113 @@
         </div>
     </header>
     <main>
-        <h2><b>Registration Form</b></h2>
-        <div class="containerForm">
-            <form action="show__data.html" method="get">
-                <p style="color:red;"><strong>* campo obligatorio</strong></p>
-                <fieldset>
-                    <label for="first_name">Player first name:</label>
-                    <input type="text" name="name" id="first_name"><span style="color:red">*</span><br>
-                    <label for="last_name">Last name:</label>
-                    <input type="text" name="lastName" id="last_name"><span style="color:red">*</span><br>
-                    <label for="street_adress">Street adress:</label>
-                    <input type="text" name="street" id="street_adress"><span style="color:red">*</span><br>
-                    <label for="city">City:</label>
-                    <input type="text" name="city name" id="city"><span style="color:red">*</span><br>
-                    <label for="zip_code">Zip:</label>
-                    <input type="number" name="zip" id="zip_code"><span style="color:red">*</span><br>
-                    <label for="birth_date">Birth date:</label>
-                    <input type="date" name="birth" id="birth_date"><span style="color:red">*</span><br>
-                    <p>Gender:</p>
-                    <label>female
-                        <input type="radio" name="gender" value="female"><span style="color:red">*</span>
-                    </label>
-                    <label>male
-                        <input type="radio" name="gender" value="male"><span style="color:red">*</span>
-                    </label><br>
-                    <label for="select">Grade:</label>
-                    <select name="grade" id="select">
-                        <option value="pre-school">Pre-School</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                    </select>
-                    </label><br>
-                </fieldset><br>
-                <p><b>Which elementary school do you live near?</b></p>
-                <fieldset>
-                    <label for="select_school">Closest School:</label>
-                    <select name="School" id="select_school">
-                        <option value="AJ Katzenmainer">AJ Katzenmainer</option>
-                        <option value="Greenbay">Greenbay</option>
-                        <option value="Howard A Yeager">Howard A Yeager</option>
-                        <option value="Marjorie P Hart">Marjorie P Hart</option>
-                        <option value="North Elementary">North Elementary</option>
-                        <option value="South Elementary">South Elementary</option>
-                    </select>
-                    </label>
-                </fieldset>
-                <input type="submit" value="send">
-            </form>
+        <div class="container">
+            <div class="containerForm">
+                <h2><b>Registration Form</b></h2>
+                <form action="show__data.html" method="get">
+                    <fieldset>
+                        <label for="first_name">Player first name:</label>
+                        <input type="text" name="name" id="first_name"><span style="color:red">*</span><br>
+                        <label for="last_name">Last name:</label>
+                        <input type="text" name="lastName" id="last_name"><span style="color:red">*</span><br>
+                        <label for="street_adress">Street adress:</label>
+                        <input type="text" name="street" id="street_adress"><span style="color:red">*</span><br>
+                        <label for="city">City:</label>
+                        <input type="text" name="city name" id="city"><span style="color:red">*</span><br>
+                        <label for="zip_code">Zip:</label>
+                        <input type="number" name="zip" id="zip_code"><span style="color:red">*</span><br>
+                        <label for="birth_date">Birth date:</label>
+                        <input type="date" name="birth" id="birth_date"><span style="color:red">*</span><br>
+                        <p>Gender:</p>
+                        <label>female
+                            <input type="radio" name="gender" value="female"><span style="color:red">*</span>
+                        </label>
+                        <label>male
+                            <input type="radio" name="gender" value="male"><span style="color:red">*</span>
+                        </label><br>
+                        <label for="select">Grade:</label>
+                        <select name="grade" id="select">
+                            <option value="pre-school">Pre-School</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        </label><br>
+                    <p><b>Which elementary school do you live near?</b></p>
+                        <label for="select_school">Closest School:</label>
+                        <select name="School" id="select_school">
+                            <option value="AJ Katzenmainer">AJ Katzenmainer</option>
+                            <option value="Greenbay">Greenbay</option>
+                            <option value="Howard A Yeager">Howard A Yeager</option>
+                            <option value="Marjorie P Hart">Marjorie P Hart</option>
+                            <option value="North Elementary">North Elementary</option>
+                            <option value="South Elementary">South Elementary</option>
+                        </select>
+                        </label>
+                        <p><b>What position(s) do you normally play? (check all that apply)</b></p>
+                        <label for="forward">forward</label>
+                        <input type="checkbox" name="position" id="forward" value="forward"><span
+                            style="color:red">*</span>
+                        <label for="Midfield">Midfield</label>
+                        <input type="checkbox" name="position" id="Midfield" value="Midfield"><span
+                            style="color:red">*</span><br>
+                        <label for="Defense">Defense</label>
+                        <input type="checkbox" name="position" id="Defense" value="Defense"><span
+                            style="color:red">*</span>
+                        <label for="Goalkeeper">Goalkeeper</label>
+                        <input type="checkbox" name="position" id="Goalkeeper" value="Goalkeeper"><span
+                            style="color:red">*</span><br>
+                        <p><b>Uniform Size:</b></p>
+                        <label>Youth Small
+                            <input type="radio" name="Uniform Size" value="Youth Small"><span style="color:red">*</span>
+                        </label>
+                        <label>Medium
+                            <input type="radio" name="Uniform Size" value="Medium"><span style="color:red">*</span>
+                        </label>
+                        <label>Youth Medium
+                            <input type="radio" name="Uniform Size" value="Youth Medium"><span
+                                style="color:red">*</span>
+                        </label>
+                        <label>Large
+                            <input type="radio" name="Uniform Size" value="Large"><span style="color:red">*</span>
+                        </label>
+                        <label>Youth Large
+                            <input type="radio" name="Uniform Size" value="Youth Large"><span style="color:red">*</span>
+                        </label>
+                        <label>Extra-Large
+                            <input type="radio" name="Uniform Size" value="Extra-Large"><span style="color:red">*</span>
+                        </label>
+                        <label>Small
+                            <input type="radio" name="Uniform Size" value="Small"><span style="color:red">*</span>
+                        </label><br>
+                        <input type="submit" value="send">
+                    </fieldset>
+                    <p style="color:red;"><strong>* campo obligatorio</strong></p>
+                </form>
+            </div>
+            <div class="container">
+                <articule></articule>
+                <p><b>Permission to Play</b></p>
+                <p>I, the parent or guardian of the minor registrant, agree that the registrant and i wil abide by all
+                    the
+                    rules
+                    of the Mighty Ducks Hokey League (MDHL). In recognizing the possibility of physical injury
+                    associated
+                    with
+                    hockey and in consideration for thhe "League" accepting the registrant for its hockey programs and
+                    activities, I ereby release, discharge, and/or otherwise indemnify MDHL, their employees and
+                    associated
+                    personnel and volunteers, inclundig the facilities used for registrants participation in the
+                    programand/orbeing transported to or from MDHL sponsored activities,Which transportation.<br> By
+                    singing
+                    below, I herebyagree and authorize the above. In addition, by signing below, also ack now ledge that
+                    y
+                    have
+                    read the cancellation policy and agree to its terms.</p><br>
+                <p>Parent/Guardian Signature:</p> <!-- aca va un form de firma(averiguar como hacerlo)-->
+                <p>Date:</p><!-- aca va otro form de firma-->
+            </articule>
+            </div>
         </div>
     </main>
     <footer>

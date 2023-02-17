@@ -156,3 +156,9 @@ th {
 .infoRules{
     width: fit-content;
 }
+
+/* registration form */
+.container article{
+    border: 1px solid black;
+    width: 80%;
+}
