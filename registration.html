@@ -26,29 +26,45 @@
         </div>
     </header>
     <main>
-        <h2>Upcoming Events</h2>
-        <div class="container">
-            <section>
-                <img src="img/design1_image1.jpg" alt="imgBanner">
-                <div>
-                    <h4>August 4</h4>
-                    <p>MDSL Fundraiser</p>
-                </div>
-            </section>
-            <section>
-                <img src="img/design1_image1.jpg" alt="imgBanner">
-                <div>
-                    <h4>August 16</h4>
-                    <p>Season Kick-off:Meet the Teams</p>
-                </div>
-            </section>
-            <section>
-                <img src="img/design1_image1.jpg" alt="imgBanner">
-                <div>
-                    <h4>September 1</h4>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </div>
-            </section>
+        <h2><b>Registration Form</b></h2>
+        <div class="containerForm">
+            <form action="./show.data.html" method="get">
+        <p style="color:red;"><strong>* campo obligatorio</strong></p>
+                <fieldset>
+                    <label for="first_name">Player first name:</label>
+                    <input type="text" name="name" id="first_name"><span style="color:red">*</span><br>
+                    <label for="last_name">Last name:</label>
+                    <input type="text" name="lastName" id="last_name"><span style="color:red">*</span><br>
+                    <label for="street_adress">Street adress:</label>
+                    <input type="text" name="street" id="street_adress"><span style="color:red">*</span><br>
+                    <label for="city">City:</label>
+                    <input type="text" name="city_name" id="city"><span style="color:red">*</span><br>
+                    <label for="zip_code">Zip:</label>
+                    <input type="number" name="zip" id="zip_code"><span style="color:red">*</span><br>
+                    <label for="birth_date">Birth date:</label>
+                    <input type="date" name="birth" id="birth_date"><span style="color:red">*</span><br>
+                    <p>Gender:</p>
+                    <label>female
+                    <input type="checkbox" name="gender_female" value="female"><span style="color:red">*</span>
+                    </label>
+                    <label>male
+                    <input type="checkbox" name="gender_male" value="male"><span style="color:red">*</span>
+                    </label><br>
+                    <p>Grade:</p>
+                    <label>Pre-school
+                    <input type="checkbox" name="grade_pre" value="Pre-school"><span style="color:red">*</span>
+                    </label>
+                    <label>1
+                    <input type="checkbox" name="grade1" value="1"><span style="color:red">*</span>
+                    </label>
+                    <label>2
+                    <input type="checkbox" name="grade2" value="2"><span style="color:red">*</span>
+                    </label>
+                    <label>3
+                    <input type="checkbox" name="grade3" value="3"><span style="color:red">*</span>
+                    </label><br>
+                </fieldset>
+            </form>
         </div>
     </main>
     <footer>
